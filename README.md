@@ -19,8 +19,7 @@
   * [License](#license)
 
   ## Installation Instructions
-
-
+### *Node and MongoDB both need to be installed on your computer for local testing.*
       npm i
 ### After you clone this repository, run this command in the application's root to install all necessary dependencies.
     npm start
@@ -57,3 +56,9 @@
   ## License
   
   ### This project is licensed under the MIT open source license. Visit [LICENSE](/LICENSE) for the full license documentation.
+  
+  ## Screenshots
+  
+  ![image](https://user-images.githubusercontent.com/93218601/165351727-a80cdf7c-1ebe-46a4-b2be-906c00c4afe1.png)
+  ![image](https://user-images.githubusercontent.com/93218601/165351785-ee76d8e4-75cd-4e44-a94a-f5ebaaab6b95.png)
+
