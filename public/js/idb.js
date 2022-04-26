@@ -35,7 +35,7 @@ async function uploadBudgetInfo() {
 
   budgetInfo.onsuccess = () => {
     if (budgetInfo.result.length > 0) {
-      fetch("api/transaction", {
+      fetch("api/transaction/bulk", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(budgetInfo.result),
